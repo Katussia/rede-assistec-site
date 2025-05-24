@@ -1,53 +1,35 @@
 
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f6f6f6;
+    color: #333;
+    text-align: center;
 }
 header {
-  background-color: #006699;
-  color: white;
-  padding: 20px;
-  text-align: center;
+    background: #002B5B;
+    color: white;
+    padding: 20px;
 }
-.logo {
-  max-height: 100px;
-  display: block;
-  margin: 0 auto 10px;
+header img {
+    margin-bottom: 10px;
 }
-h1, h2 {
-  margin: 0.5em 0;
+main {
+    padding: 20px;
 }
-section {
-  padding: 20px;
+.whatsapp-button {
+    display: inline-block;
+    margin-top: 10px;
+    background: #25D366;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
 }
-ul {
-  list-style: none;
-  padding: 0;
-}
-ul li {
-  background: #e0f7fa;
-  margin: 8px 0;
-  padding: 10px;
-  border-radius: 5px;
-}
-.img-servico {
-  max-width: 100%;
-  height: auto;
-  margin-top: 10px;
-}
-.whatsapp {
-  display: inline-block;
-  background-color: #25d366;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  margin-top: 15px;
-  font-weight: bold;
-}
-.whatsapp:hover {
-  background-color: #128c7e;
+footer {
+    background: #ddd;
+    padding: 10px;
+    font-size: 0.9em;
 }
